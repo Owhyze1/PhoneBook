@@ -14,18 +14,24 @@
     <br>
 
 
-    <label for="colors">Favorite Colors</label>
+
+    <input type="checkbox" id="select-all" name="colors" value="select=all">
+    <label for="select-all">Select All</label>
     <br>
-    <input type="checkbox" id="red" name="colors">
-    <label for="red">Red</label>
-    <br>
-    <input type="checkbox" id="blue" name="colors">
-    <label for="blue">Blue</label>
-    <br>
-    <input type="checkbox" id="yellow" name="colors">
-    <label for="yellow">Yellow</label>
-    <br>
-    <input type="button" value="save" id="save">
+    <fieldset>
+      <legend>Favorite Colors</legend>
+      <input type="checkbox" id="red" name="colors" value="red">
+      <label for="red">Red</label>
+      <br>
+      <input type="checkbox" id="blue" name="colors" value="blue">
+      <label for="blue">Blue</label>
+      <br>
+      <input type="checkbox" id="yellow" name="colors" value="yellow">
+      <label for="yellow">Yellow</label>
+    </fieldset>
+    <input type="button" value="Save" id="save">
+
+
   </div>
 </body>
 </html>
