@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-input#age,
-input#name {
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
 
 div.input {
   background-color: yellow;
@@ -17,9 +11,25 @@ div.input {
   padding: 30px;
 }
 
+input,
+label {
+  font: 'Fira Sans', sans-serif;
+}
+
+input#age,
+input#name {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
 input#save {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   width: 100%;
+}
+
+input#select-all {
+  margin-top: 10px;
+  margin-left: 30%;
 }
